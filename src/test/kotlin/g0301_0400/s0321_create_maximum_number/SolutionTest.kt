@@ -28,4 +28,12 @@ internal class SolutionTest {
             equalTo(intArrayOf(9, 8, 9))
         )
     }
+
+    @Test
+    fun maxNumber4() {
+        assertThat(
+            Solution().maxNumber(intArrayOf(3, 9), intArrayOf(8, 9), 0),
+            equalTo(intArrayOf())
+        )
+    }
 }
